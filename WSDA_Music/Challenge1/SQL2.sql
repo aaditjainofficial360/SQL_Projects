@@ -1,0 +1,1 @@
+SELECT SUM(TOTAL) AS 'TOTAL MONEY' FROM Invoice WHERE InvoiceDate LIKE '2011%' OR InvoiceDate LIKE '2012%'
