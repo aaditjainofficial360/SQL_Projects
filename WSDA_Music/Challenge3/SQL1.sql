@@ -3,7 +3,7 @@
 --  generated during 2011 and 2012.
 
 SELECT
-Employee.FirstName || ' ' || Employee.LastName AS 'Sales Represtative'
+DISTINCT(Employee.FirstName || ' ' || Employee.LastName) AS 'Sales Represtative'
 FROM
 Invoice
 JOIN
